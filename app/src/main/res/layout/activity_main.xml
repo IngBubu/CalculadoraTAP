@@ -9,51 +9,69 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
     <EditText
         android:id="@+id/txtResultado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:gravity="center"
+        android:inputType="number|numberDecimal|numberSigned"
         android:text="0"
-        android:inputType="numberSigned"
-        android:textSize="25dp" />
+        android:textColor="@color/rojo"
+        android:textSize="35dp" />
 
     <EditText
-        android:id="@+id/editTextNumberSigned2"
+        android:id="@+id/txtPrimerOperando"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:text="0"
-        android:inputType="numberSigned"
-        android:textSize="25dp"/>
+        android:gravity="right"
+        android:inputType="number|numberDecimal|numberSigned"
+        android:text=""
+        android:hint="INTRODUZCA NUMERO"
+        android:textSize="35dp" />
+
+    <EditText
+        android:id="@+id/txtSegundoOperando"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="right"
+        android:hint="INTRODUZCA NUMERO"
+        android:inputType="number|numberDecimal|numberSigned"
+        android:text=""
+        android:textSize="35dp" />
     <Button
         android:id="@+id/btnSuma"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:text="@string/suma"
         android:backgroundTint="@color/rojo"/>
 
     <Button
         android:id="@+id/btnResta"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:text="@string/resta"
         android:backgroundTint="@color/azul"/>
 
     <Button
         android:id="@+id/btnDivision"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:text="@string/division"
         android:backgroundTint="@color/amarillo"/>
 
     <Button
         android:id="@+id/btnMultiplicacion"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:text="@string/multipliacion"
         android:backgroundTint="@color/verdeLima"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 
 </LinearLayout>
