@@ -26,7 +26,6 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:gravity="right"
-        android:inputType="number|numberDecimal|numberSigned"
         android:text=""
         android:hint="INTRODUZCA NUMERO"
         android:textSize="35dp" />
